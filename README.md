@@ -36,7 +36,9 @@ T-Test for All Manufacturing Lots
 * The p-value of 0.06 is higher than the significance level of 0.05 which indicates there is not enough evidence to support rejecting the null hypothesis. Also this observation exhibits that the mean of all three of the manufacturing lots is statistically similar to the presumed population mean of 1500.
 
 T-Test for the Individual Lots
+
 Lot1:
+
 ![Deliverable3 2](https://user-images.githubusercontent.com/57520471/174710554-37c8033b-9d6e-435f-b48a-6c0399516a9d.png)
 
 * Lot1 has a p-value of 1 which is above significance level and therefore the observed mean is statistically similar to 1500.
