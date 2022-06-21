@@ -8,7 +8,7 @@ The purpose of this project is to provide AutosRUs a statistical analysis report
 ![Deliverable1](https://user-images.githubusercontent.com/57520471/174710380-52d95dc4-a72b-4dfc-bbc7-28d0ebac1634.png)
 
 * The vehicle length and ground clearance provided a non-random amount of variance to the MPG values in the MechaCar_mpg dataset. 
-* The p-value of the multiple linear regression is 5.35e-11 which follows well below the significance level of 0.05. Based on these findings the slope of the linear model is not zero which means there is enough evidence to reject the null hypothesis.
+* The p-value of the multiple linear regression is 5.35e-11 which falls well below the significance level of 0.05. Based on these findings the slope of the linear model is not zero which means there is enough evidence to reject the null hypothesis.
 * This linear model predicts about 71.5% (based on the R value of 0.7149) of mpg of MechaCar prototypes effectively.
 
 ## Summary Statistics on Suspension Coils
@@ -24,7 +24,7 @@ Summary of Individual Manufacturing Lots:
 ![Deliverable2 2](https://user-images.githubusercontent.com/57520471/174710519-91afb8a9-285e-4bb5-9f52-1585e9bc138d.png)
 
 * Lot1 (variance of 0.98) and Lot2 (variance of 7.47) are observed to be below the 100 PSI limit. 
-* Lot3 with a variance of 170.29 is exceeds the 100 PSI limit. 
+* Lot3 with a variance of 170.29 exceeds the 100 PSI limit. 
 
 ## T-Tests on Suspension Coils
 
@@ -64,4 +64,4 @@ Future study that can quantify how the MechaCar performs against the competition
 * Metrics being tested: maintenance cost (dependent variable), mpg (independent variable), engine type (independent variable)
 * Null hypothesis: The slope of the linear model is 0, therefore there is no significant linear relationship.
 * Alternative hypothesis: The slope of the linear model is not 0, therefore there is a statistically significant linear relationship.
-* A multiple linear regression would be used to determine the statistical difference between the maintenance cost vs mpg and engine type. Multiple linear regression uses the two independent variables (mpg and engine type) to account for parts of the total variance observed against the dependent variable (maintenance cost).
+* A multiple linear regression will be used to determine the statistical difference between the maintenance cost vs mpg and engine type. Multiple linear regression uses the two independent variables (mpg and engine type) to account for parts of the total variance observed against the dependent variable (maintenance cost). Therefore this test will show the impact of mpg and engine type on the maintenance cost. 
